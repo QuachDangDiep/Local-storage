@@ -52,7 +52,7 @@ let createTasks = () => {
             <i onClick ="deleteTask(this);createTasks()" class="fas fa-trash-alt"></i>
           </span>
         </div>     
-          );
+          `);
     });
     resetForm();
 };
